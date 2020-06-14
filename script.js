@@ -269,40 +269,50 @@
 // --------------------------- Chapter 6 - 9 -------------------------
 
 
-// var a = 10;
-// document.write("Value of a is " + a);
-// document.write("<br />")
+// // Task 1
+// var a = prompt("Enter value of a:");
+// document.write("<br><br>Result:");
+// document.write("<br>The value of a is: ",a);
+// document.write("<br><br>............................");
+// document.write("<br><br>The value of ++a is: ",++a);
+// document.write("<br>The value of a is: ",a);
+// document.write("<br><br>The value of a++ is:",a++);
+// document.write("<br>The value of a is:",a);
+// document.write("<br><br>The value of --a is: ",--a);
+// document.write("<br>The value of a is: ",a);
+// document.write("<br><br>The value of a-- is: ",a--);
+// document.write("<br>The value of a is: ",a);
 
-// document.write("--------------------------")
-// document.write("<br />")
-
-// document.write("<br />")
-// a = ++a;
-// document.write("Value of ++a is : " + a);
-// document.write("<br />")
-// document.write("Now the Value of a is : " + a);
-// document.write("<br />")
-
-
-// document.write("Value of a++ is : " + a);
-// document.write("<br />")
-// a = a++;
-// document.write("Now the Value of a is : " + a);
-// document.write("<br />")
-
-// document.write("Value of --a is : " + a);
-// document.write("<br />")
-// a = --a;
-// document.write("Now the Value of a is : " + a);
-// document.write("<br />")
+// // Task 2
+// var a = 2, b = 1;
+// document.write("<br><br>a is ",a);
+// document.write("<br>b is ",b);
+// var result = --a - --b + ++b + b--;
+// // --a = 1
+// // --a - --b = 1
+// // --a - --b + ++b = 2
+// // --a - --b + ++b + b-- = 3
+// document.write("<br>Result is ",result);
 
 
-// document.write("Value of a-- is : " + a);
-// document.write("<br />")
-// a = a--;
-// document.write("Now the Value of a is : " + a);
-// document.write("<br />")
+// // Task 3
 
+// var name = prompt("Enter your name: ");
+// alert("Hello " + name + " Welcome to our site!!!")
+
+
+// // Task 4
+
+// var no = prompt("Enter a number:");
+// if(no === ""){
+//     no = 5
+// }
+// for(var i = 1 ; i<11; i++){
+//     document.write("<br>" + no + "   x    " + i + "    =    " + "    " + (no*i))
+// }
+
+
+// // Task 5
 
 
 // --------------------------- Chapter 9 - 11 -------------------------
